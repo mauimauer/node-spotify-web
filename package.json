@@ -3,6 +3,7 @@
   "version": "0.1.2",
   "description": "NodeJS implementation of the Spotify Web protocol",
   "main": "index.js",
+  "private": true
   "dependencies": {
     "cheerio": "~0.10.5",
     "debug": "~0.7.0",
@@ -11,17 +12,12 @@
     "ws": "~0.4.25",
     "readable-stream": "~0.2.0"
   },
-  "devDependencies": {
-    "lame": "~1.0.1",
-    "speaker": "~0.0.6",
-    "xml2js": "~0.2.2"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/TooTallNate/node-spotify-web.git"
+    "url": "git://github.com/mauimauer/node-spotify-web.git"
   },
   "author": "Nathan Rajlich <nathan@tootallnate.net> (http://tootallnate.net)",
   "license": "MIT"
