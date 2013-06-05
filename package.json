@@ -3,7 +3,7 @@
   "version": "0.1.2",
   "description": "NodeJS implementation of the Spotify Web protocol",
   "main": "index.js",
-  "private": true
+  "private": true,
   "dependencies": {
     "cheerio": "~0.10.5",
     "debug": "~0.7.0",
